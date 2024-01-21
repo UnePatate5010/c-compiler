@@ -1,0 +1,4 @@
+# bin/bash
+
+./lang < ../Examples/Ex$1.myc > ../Examples/Ex$1_pcode.c
+cat ../Examples/Ex$1_pcode.c
